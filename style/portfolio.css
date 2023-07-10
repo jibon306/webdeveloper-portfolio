@@ -234,6 +234,11 @@ footer{
 
 }
 
+
+.social-links{
+    margin: 15px;
+}
+
 .footer-column{
     width: 50%;
 }
