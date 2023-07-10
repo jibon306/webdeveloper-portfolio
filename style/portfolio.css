@@ -90,11 +90,19 @@ nav a{
     margin-bottom: 0;
 }
 .banner-title {
-    font-size: 110;
-    font-weight: 10000;
+    font-size: 50px;
+    font-weight: 100px;
     margin-top: 5px;
     margin-bottom: 20px;
+
+font-family: 'Open Sans', sans-serif;
+
+
+
+
+
 }   
+
 
 
 
@@ -109,6 +117,10 @@ nav a{
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
 }
 
  .about{ 
@@ -145,11 +157,77 @@ font-weight: 400;
 
 
 }
-
+ /* skill related style*/
     
 #what-ido-description {
     padding: 30px 150px;
 }
+
+.skills-container{
+    display: flex;
+    gap:20px;
+}
+.skill{
+    padding:30px ;
+    border-radius: 5px;
+    
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/*resume section style*/
+.resume-column-title{
+   color:  #474747;
+font-size: 30px;
+font-weight: 700;
+
+
+
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+
+.resume-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 10px;
+
+}
+
+
+.resume-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.resume-title-description, .resume-institute{
+    color:  #757575;
+}
+
+
+
+.resume-container hr{
+    margin: 35px;
+}
+
+
+.download-cv{
+    text-align: center;
+     margin-top: 50px;
+
+
+}
+
+
+
+
+
 
 
 
